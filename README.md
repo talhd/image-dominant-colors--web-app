@@ -5,6 +5,7 @@
    I implemented k-means on the server side.<br><br>
 frontend: html,css,vanilla js<br>
 backend: node.js,express and more<br>
+examples: python<br>
 </strong>
 </P>
   </center>
