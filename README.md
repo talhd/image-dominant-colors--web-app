@@ -9,3 +9,13 @@ backend: node.js,express and more<br>
 </P>
   </center>
 <img src="example.gif" alt="animated" /><br>
+
+<strong>Get dominant colors of image:</strong>
+<p>
+To find the dominant colors of an image, we want a better method than just counting which color shows up the most.  why is counting colors naively not a good idea?
+  
+the problem is that in an image, you can have many different shades or versions of a single color. If we count them all separately, it would give us an inflated count.
+
+For example:
+<img src="1.png" alt="animated" /><br>
+</p>
