@@ -7,5 +7,5 @@ frontend: html,css,vanilla js<br>
 backend: node.js and express and more<br>
 </strong>
 </P>
+  </center>
 <img src="example.gif" alt="animated" /><br>
-</center>
