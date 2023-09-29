@@ -17,5 +17,7 @@ To find the dominant colors of an image, we want a better method than just count
 the problem is that in an image, you can have many different shades or versions of a single color. If we count them all separately, it would give us an inflated count.
 
 For example:
-<img src="1.png" alt="animated" /><br>
+<img src="1.png" alt="animated" /><br><br>
+If we naively count the dominant colors here, we might say there are three dominant colors and they are all a shade of green. And based on the count, they have 16 pixels, 12 pixels, and 8 pixels each. But here's the catch: all those different greens make up only 60% of the image, while the remaining 40% is blue.<br>
+When we count colors naively, we're actually ignoring 40% of the image, and that doesn't make much sense in representing the colors accurately.
 </p>
