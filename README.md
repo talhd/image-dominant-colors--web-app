@@ -10,7 +10,7 @@ examples: python<br>
 </strong>
 </P>
   </center>
-<img src="example.gif" alt="animated" /><br>
+<img src="img/example.gif" alt="animated" /><br>
 
 <strong>Get dominant colors of image:</strong>
 <p>
@@ -19,7 +19,14 @@ To find the dominant colors of an image, we want a better method than just count
 the problem is that in an image, you can have many different shades or versions of a single color. If we count them all separately, it would give us an inflated count.
 
 For example:
-<img src="1.png" alt="animated" /><br><br>
+<img src="img/1.png" alt="animated" /><br><br>
 If we naively count the dominant colors here, we might say there are three dominant colors and they are all a shade of green. And based on the count, they have 16 pixels, 12 pixels, and 8 pixels each. But here's the catch: all those different greens make up only 60% of the image, while the remaining 40% is blue.<br>
 When we count colors naively, we're actually ignoring 40% of the image, and that doesn't make much sense in representing the colors accurately.
+
+How can this be overcome?
+
+We'll use K-Means algorithm to group similar colors so we don't end up counting too many versions of the same color. This way, we can accurately figure out which colors are the most dominant in the image.
+
+If we return to our example,*without* using K-Means,If we look for the 3 dominant colors with naive counting we will get the colors:
+<img src="img/2.png" alt="animated" /><br><br>
 </p>
