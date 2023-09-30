@@ -28,5 +28,5 @@ How can this be overcome?
 We'll use K-Means algorithm to group similar colors so we don't end up counting too many versions of the same color. This way, we can accurately figure out which colors are the most dominant in the image.
 
 If we return to our example,*without* using K-Means,If we look for the 3 dominant colors with naive counting we will get the colors:
-<img src="img/2.png" alt="animated" /><br><br>
+<img src="img/2.png" alt="animated" /><br>(python/naive_counting.py)<br>
 </p>
