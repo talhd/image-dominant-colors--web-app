@@ -30,6 +30,6 @@ We'll use K-Means algorithm to group similar colors so we don't end up counting 
 If we return to our example,*without* using K-Means,If we look for the 3 dominant colors with naive counting we will get the colors:
 <img src="img/2.png" alt="animated" /><br>(python/naive_counting.py)<br>
 But with the help of the algorithm we will get a better representation of the colors in the image:<br>
-<img src="img/3.png" alt="animated" /><br>(python/k_means.py)
+<img src="img/3.png" alt="animated" /><br>(python/k_means.py)<br>
 Remember that there are more shades of blue,each takes up a small amount of pixels, but in general there are more shades of blue than green.
 </p>
